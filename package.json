@@ -1,0 +1,46 @@
+{
+  "name": "drupal-pack",
+  "displayName": "Drupal Extension Pack",
+  "description": "Extensions for developing Drupal based projects.",
+  "version": "1.0.0",
+  "publisher": "wotnak",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "qna": "https://github.com/wotnak/vscode-drupal/issues",
+  "bugs": {
+    "url": "https://github.com/wotnak/vscode-drupal/issues"
+  },
+  "repository": {
+    "url": "https://github.com/wotnak/vscode-drupal"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "xdebug.php-debug",
+    "bmewburn.vscode-intelephense-client",
+    "MehediDracula.php-namespace-resolver",
+    "valeryanm.vscode-phpsab",
+    "sanderronde.phpstan-vscode",
+    "DEVSENSE.composer-php-vscode",
+    "eamodio.gitlens",
+    "ms-azuretools.vscode-docker",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "mblode.twig-language-2",
+    "redhat.vscode-yaml",
+    "streetsidesoftware.code-spell-checker",
+    "andrewdavidblum.drupal-smart-snippets",
+    "marcostazi.VS-code-drupal"
+  ],
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  },
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish"
+  }
+}
