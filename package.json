@@ -2,7 +2,7 @@
   "name": "drupal-pack",
   "displayName": "Drupal Extension Pack",
   "description": "Extensions for developing Drupal based projects.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "wotnak",
   "license": "MIT",
   "engines": {
