@@ -34,7 +34,8 @@
     "redhat.vscode-yaml",
     "streetsidesoftware.code-spell-checker",
     "andrewdavidblum.drupal-smart-snippets",
-    "marcostazi.VS-code-drupal"
+    "marcostazi.VS-code-drupal",
+    "davis-are.drupal-sdc-helper"
   ],
   "devDependencies": {
     "vsce": "^2.15.0"
